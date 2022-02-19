@@ -66,6 +66,7 @@ function stretch(value) {
 
             for (let j = 0; j < 1 && i < (value - 1); j++) {
                 x += "O";
+                i++;
             }
         }
 
