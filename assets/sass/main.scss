@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.eingabeValueMax{
+    display: flex;
+    flex-direction: column;;
+    margin-top: 10px;
+
+    input{
+        width: 30%;
+    }
+}
+
+.ersteZahl{
+    display: flex;
+    flex-direction: column;
+
+    select{
+        width: 10%;
+    }
+}
+
+.zweiteZahl{
+    display: flex;
+    flex-direction: column;
+}
+
+.zweiteZahl-Button{
+    display: flex;
+
+    select{
+        width: 10%;
+    }
+
+    button{
+        margin-left: 5px;
+        padding: 0 5px;
+    }
+}
+
+#result2{
+    margin-top: 10px;
+}
